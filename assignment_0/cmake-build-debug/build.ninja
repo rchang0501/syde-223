@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/rchang/CLionProjects/r28chang/cmake-build-debug/
+cmake_ninja_workdir = /Users/rchang/CLionProjects/syde-223/assignment_0/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target syde223-a0
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /Users/rchang/CLionProjects/r28chang/cmake-build-debug/
 
 build cmake_object_order_depends_target_syde223-a0: phony || CMakeFiles/syde223-a0.dir
 
-build CMakeFiles/syde223-a0.dir/syde223-a0.cpp.o: CXX_COMPILER__syde223-a0_Debug /Users/rchang/CLionProjects/r28chang/syde223-a0.cpp || cmake_object_order_depends_target_syde223-a0
+build CMakeFiles/syde223-a0.dir/syde223-a0.cpp.o: CXX_COMPILER__syde223-a0_Debug /Users/rchang/CLionProjects/syde-223/assignment_0/syde223-a0.cpp || cmake_object_order_depends_target_syde223-a0
   DEP_FILE = CMakeFiles/syde223-a0.dir/syde223-a0.cpp.o.d
   FLAGS = -std=c++11 -Wall  -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/syde223-a0.dir
@@ -79,7 +79,7 @@ build syde223-a0: CXX_EXECUTABLE_LINKER__syde223-a0_Debug CMakeFiles/syde223-a0.
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/rchang/CLionProjects/r28chang/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/rchang/CLionProjects/syde-223/assignment_0/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -90,7 +90,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/rchang/CLionProjects/r28chang/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/rchang/CLionProjects/r28chang -B/Users/rchang/CLionProjects/r28chang/cmake-build-debug
+  COMMAND = cd /Users/rchang/CLionProjects/syde-223/assignment_0/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/rchang/CLionProjects/syde-223/assignment_0 -B/Users/rchang/CLionProjects/syde-223/assignment_0/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -106,7 +106,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/rchang/CLionProjects/r28chang/cmake-build-debug
+# Folder: /Users/rchang/CLionProjects/syde-223/assignment_0/cmake-build-debug
 
 build all: phony syde223-a0
 
