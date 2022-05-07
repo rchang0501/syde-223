@@ -1,0 +1,3 @@
+/Users/rchang/CLionProjects/r28chang/cmake-build-debug/CMakeFiles/syde223-a0.dir
+/Users/rchang/CLionProjects/r28chang/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rchang/CLionProjects/r28chang/cmake-build-debug/CMakeFiles/rebuild_cache.dir
